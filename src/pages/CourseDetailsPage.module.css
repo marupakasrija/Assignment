@@ -1,0 +1,49 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .container h2 {
+    color: var(--primary-dark);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .container p {
+    margin-bottom: 1rem;
+  }
+  
+  .container ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .container li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .syllabus {
+    border-top: 1px solid var(--border-color);
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+  
+  .syllabusItem {
+    margin-bottom: 1rem;
+  }
+  
+  .syllabusItem h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  
