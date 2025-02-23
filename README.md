@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# React Developer Hiring Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
+This project is a **Course Management Web Application** built using **React**. The application allows users to browse a list of courses, view detailed course information, and manage their enrolled courses through a student dashboard.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 1️⃣ Course Listing Page
+- Fetches course data from a **dummy API** or **Firebase backend**.
+- Displays courses in a **scrollable list** with the following details:
+  - Course name
+  - Instructor name
+  - Thumbnail
+  - Enrollment status
+- Provides a **search functionality** to filter courses by **name or instructor**.
+- Users can click on a course to view **detailed information**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2️⃣ Course Details Page
+- Displays detailed course information:
+  - Course name
+  - Instructor name
+  - Description
+  - Enrollment status
+  - Duration
+  - Schedule
+  - Location
+  - Pre-requisites
+  - Syllabus (expandable view)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3️⃣ Student Dashboard
+- Displays **courses enrolled by the student**.
+- Shows course details including:
+  - Course name
+  - Instructor name
+  - Thumbnail
+  - Due date
+  - Progress bar
+- Allows students to **mark courses as completed**.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
+- **Frontend:** React, Redux (for state management)
+- **Backend :**  Mock API
+- **UI Framework:** Tailwind CSS / Material-UI
+- **State Management:** Redux
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔹 Installation Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/marupakasrija/Assignment.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd course-management-app
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+5. Open **http://localhost:3000/** in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📌 Author
+**Name:** Srija Reddy Marupaka  
+**Email:** marupakasrijareddy2001@gmail.com 
+**GitHub:** https://github.com/marupakasrija
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
